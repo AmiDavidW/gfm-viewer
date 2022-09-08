@@ -5,7 +5,7 @@
   version="1.0.0">
   <!-- !!! GENERATED FILE - DO NOT EDIT !!! -->
   <properties size="1">
-    <property name="p2.timestamp" value="1462313499820" />
+    <property name="p2.timestamp" value="1662643940427" />
   </properties>
   <children size="1">
     <child location="http://dl.bintray.com/satyagraha/generic/2.0.1/" />

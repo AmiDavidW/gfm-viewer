@@ -50,7 +50,7 @@
   </contributors>
 
   <properties>
-    <tycho-version>0.25.0</tycho-version>
+    <tycho-version>2.7.0</tycho-version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <copy.warning>!!! GENERATED FILE - DO NOT EDIT !!!</copy.warning>
   </properties>
@@ -59,7 +59,16 @@
     <repository>
       <id>eclipse-mars</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/releases/mars</url>
+      <url>http://download.eclipse.org/releases/2022-03</url>
+    </repository>
+    <repository>
+      <id>central</id>
+      <name>Central Repository</name>
+      <url>https://repo.maven.apache.org/maven2</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
     </repository>
   </repositories>
 
@@ -77,7 +86,7 @@
         <artifactId>target-platform-configuration</artifactId>
         <version>${tycho-version}</version>
         <configuration>
-          <executionEnvironment>JavaSE-1.7</executionEnvironment>
+          <executionEnvironment>JavaSE-11</executionEnvironment>
           <environments>
             <environment>
               <os>linux</os>
